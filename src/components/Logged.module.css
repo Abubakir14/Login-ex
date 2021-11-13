@@ -1,0 +1,8 @@
+.h1 {
+  color: blueviolet;
+  font-size: 100px;
+  border-radius: 30px;
+  box-shadow: 60px -16px #7740db;
+  background-color: rgb(220, 202, 236);
+  display: flex;
+}

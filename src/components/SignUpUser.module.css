@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form input {
+  background-color: rgb(213, 176, 248);
+  border-radius: 5px;
+  font-size: large;
+  box-shadow: 10px 5px 5px rgb(86, 156, 221);
+}
+.form input:hover {
+  border: 5px solid #5b1ccf;
+  transition-duration: 0.4s;
+}
+.form button {
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px rgb(35, 216, 240);
+  font-size: x-large;
+  background-color: rgb(220, 202, 236);
+  margin-left: 20px;
+}
+
+.form button:hover {
+  border: 5px solid rgb(64, 197, 214);
+  transition-duration: 0.4s;
+}

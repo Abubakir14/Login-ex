@@ -1,0 +1,14 @@
+.div {
+  display: flex;
+  justify-content: end;
+  border-radius: 10px;
+}
+
+.div h1,
+li {
+  background-color: rgb(207, 181, 231);
+  border: 3px solid rgb(219, 58, 58);
+  border-radius: 5px;
+  margin-top: 15px;
+  list-style: none;
+}
