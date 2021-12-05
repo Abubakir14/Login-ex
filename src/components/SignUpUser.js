@@ -84,9 +84,9 @@ export default function SignUp(props) {
       <div  className={classes.form}>
       {state.formIsvalid && <Modal onCorrect={() => dispatchDATAs({type: 'TRUE', payload: false})}/> }
     <form>
-      <input onChange={ChangeUsername} value={state.username} />
-      <input onChange={ChangeEmail} value={state.email} />
-      <input onChange={ChangePassword} value={state.password} />
+      <input onChange={ChangeUsername} placeholder="username" value={state.username} />
+      <input onChange={ChangeEmail} placeholder="e-mail" value={state.email} />
+      <input onChange={ChangePassword} placeholder="password" value={state.password} />
       <button onClick={onSubmitHandler}>Sign</button>
     </form>
     </div>

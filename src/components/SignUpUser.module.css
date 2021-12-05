@@ -1,6 +1,8 @@
 .form {
   display: flex;
   justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 .form input {
   background-color: rgb(213, 176, 248);

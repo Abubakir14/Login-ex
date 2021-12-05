@@ -10,7 +10,6 @@ function ErrorModal(props) {
           <li>Your username must have numbers</li>
           <li>Your password length must be greater than 6</li>
           <li>Your email must include @gmail.com</li>
-        <button onClick={() => props.onCorrect}>okay</button>
       </div>
     </div>
   );
